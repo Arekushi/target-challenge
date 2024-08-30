@@ -6,3 +6,24 @@
 
 # IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua
 # preferência ou pode ser previamente definido no código;
+
+from sys import stdout, stdin
+
+
+def fibonnaci(n):    
+    def fib(a, b, n):
+        if a >= n:
+            return [a]
+        else:
+            return [a] + fib(b, a + b, n)
+
+    return fib(0, 1, n)
+
+
+n = int(stdin.readline())
+fib_sequence = fibonnaci(n)
+message = f'o número {n} não pertence a sequência'
+message = message.replace(' não ', ' ') if n in fib_sequence else message
+
+stdout.write(f'Fibbonaci: {fib_sequence}\n')
+stdout.write(f'{message}\n')
