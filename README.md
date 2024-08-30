@@ -22,7 +22,7 @@ Teste técnico proposto pela [Target Sistemas][target], com alguns meros exercí
 
 A escolha do Python foi por praticidade, iniciar um projeto Java, C# ou C++ seria um pouco mais trabalhoso.
 
-Independente da linguagem, todos os exercícios se encontram na pasta `src`. No arquivo `main.py` eu chamo todos os exercícios com uma entrada padrão.
+Independente da linguagem, todos os exercícios se encontram na pasta `src`.
 
 ## 🔨 Construído com
 - [Python 3.9.13][python]
