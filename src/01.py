@@ -8,6 +8,7 @@
 # Abaixo também deixei outras implementações
 
 from sys import stdout
+import functools
 
 
 index = 13
@@ -15,6 +16,7 @@ k = 0
 sum_while = 0
 sum_func = 0
 sum_without_loop = 0
+sum_reduce = 0
 
 while(k < index):
     k += 1
@@ -23,7 +25,9 @@ while(k < index):
 sum_without_loop = (index * (index + 1)) // 2
 
 sum_func = sum(i for i in range(0, index + 1))
+sum_reduce = functools.reduce(lambda x, y: x + y, range(0, index + 1))
 
 stdout.write(f'{sum_while}\n') # 91
 stdout.write(f'{sum_without_loop}\n') # 91
 stdout.write(f'{sum_func}\n') # 91
+stdout.write(f'{sum_reduce}\n') # 91
