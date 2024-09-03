@@ -7,8 +7,8 @@
         <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqvwdy9SnHVdReAg6nt3F0gbU9fdIOygo_fw&s"
             width="150"
-            title="Water Gas Gemini API Logo"
-            alt="Water Gas Gemini API Logo"
+            title="Target Logo"
+            alt="Target Logo"
         />
     </a>
 </p>
