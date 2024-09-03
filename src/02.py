@@ -7,6 +7,19 @@
 # IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua
 # preferência ou pode ser previamente definido no código;
 
+# EXEMPLOS DE ENTRADA E SAÍDA
+# 35
+# Fibbonaci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+# o número 35 não pertence a sequência
+
+# 55
+# Fibbonaci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+# o número 55 pertence a sequência
+
+# 789152
+# Fibbonaci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765, 10946, 17711, 28657, 46368, 75025, 121393, 196418, 317811, 514229, 832040]
+# o número 789152 não pertence a sequência
+
 from sys import stdout, stdin
 
 
